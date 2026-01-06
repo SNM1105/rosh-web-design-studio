@@ -13,6 +13,14 @@ function Portfolio() {
     },
     {
       id: 2,
+      title: 'SimpleTable RPG',
+      description: 'A web-based tabletop RPG game with React, CSS, and AI integration.',
+      image: '/Simpletable-RPG-Cover.png',
+      url: 'https://simpletable-rpg.vercel.app/',
+      tags: ['React', 'CSS', 'AI Integration', 'Web Game']
+    },
+    {
+      id: 3,
       title: 'Your Project Here',
       description: 'Let\'s build something amazing together. Your site could be next!',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
