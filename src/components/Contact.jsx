@@ -56,7 +56,12 @@ function Contact() {
       {status === 'success' && (
         <div className="popup-overlay" onClick={() => setStatus('')}>
           <div className="popup-modal" onClick={(e) => e.stopPropagation()}>
-            <div className="popup-icon">✅</div>
+            <div className="popup-icon">
+              <svg width="60" height="60" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="20" fill="rgba(212, 165, 116, 0.2)" stroke="#D4A574" strokeWidth="2"/>
+                <path d="M14 24L20 30L34 16" stroke="#D4A574" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
             <h3>Thank You!</h3>
             <p>Your message has been sent successfully.</p>
             <p className="popup-subtitle">I'll get back to you as soon as possible, usually within 24 hours.</p>
@@ -70,19 +75,38 @@ function Contact() {
       <div className="contact-content">
         <div className="contact-info">
           <div className="info-card">
-            <div className="info-icon">📧</div>
+            <div className="info-icon">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="6" y="12" width="36" height="24" rx="2" stroke="#D4A574" strokeWidth="2" fill="rgba(212, 165, 116, 0.1)"/>
+                <path d="M6 14L24 26L42 14" stroke="#D4A574" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
             <h3>Email</h3>
             <p>simonmedalssy@gmail.com</p>
           </div>
           
           <div className="info-card">
-            <div className="info-icon">💬</div>
+            <div className="info-icon">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="24" r="18" stroke="#D4A574" strokeWidth="2" fill="rgba(212, 165, 116, 0.1)"/>
+                <path d="M24 12V24L32 28" stroke="#D4A574" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                <circle cx="24" cy="6" r="1.5" fill="#D4A574"/>
+                <circle cx="24" cy="42" r="1.5" fill="#D4A574"/>
+                <circle cx="6" cy="24" r="1.5" fill="#D4A574"/>
+                <circle cx="42" cy="24" r="1.5" fill="#D4A574"/>
+              </svg>
+            </div>
             <h3>Response Time</h3>
             <p>Within 24 hours</p>
           </div>
           
           <div className="info-card">
-            <div className="info-icon">🌐</div>
+            <div className="info-icon">
+              <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 6C16 6 10 12 10 20C10 30 24 42 24 42C24 42 38 30 38 20C38 12 32 6 24 6Z" stroke="#D4A574" strokeWidth="2" fill="rgba(212, 165, 116, 0.1)" strokeLinejoin="round"/>
+                <circle cx="24" cy="20" r="5" stroke="#D4A574" strokeWidth="2" fill="#D4A574"/>
+              </svg>
+            </div>
             <h3>Available</h3>
             <p>Mon - Fri, 9AM - 6PM</p>
           </div>
