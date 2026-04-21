@@ -31,12 +31,6 @@ function About() {
           </div>
           <div className="stat-card">
             <div className="stat-number">
-              <AnimatedCounter end={3} suffix="" duration={1500} />
-            </div>
-            <div className="stat-label">Current Projects</div>
-          </div>
-          <div className="stat-card">
-            <div className="stat-number">
               <AnimatedCounter end={100} suffix="%" duration={1500} />
             </div>
             <div className="stat-label">Client Satisfaction</div>

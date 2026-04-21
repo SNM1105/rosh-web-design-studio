@@ -9,7 +9,7 @@ function Portfolio() {
       description: 'E-commerce platform for ordering meats and prepared foods with delivery',
       image: '/amsellem-butcher.png',
       url: 'https://amsellem-butcher.vercel.app/',
-      tags: ['React', 'HTML', 'CSS', 'Database']
+      tags: ['Business', 'E-commerce', 'Database']
     },
     {
       id: 2,
@@ -19,8 +19,16 @@ function Portfolio() {
       url: 'https://simpletable-rpg.vercel.app/',
       tags: ['React', 'CSS', 'AI Integration', 'Web Game']
     },
-    {
+        {
       id: 3,
+      title: 'Autobus Bensimhon',
+      description: 'A montreal-based public transportation company website.',
+      image: '/autobusbensimhon.png',
+      url: 'https://autobusbensimhon.com/',
+      tags: ['Web Design', 'Business', 'Booking']
+    },
+    {
+      id: 4,
       title: 'Your Project Here',
       description: 'Let\'s build something amazing together. Your site could be next!',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop',
